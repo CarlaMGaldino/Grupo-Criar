@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-cfca Net</title>
+    <link rel="shortcut icon" href="/assets/images/favicon/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/style.min.css">
+
+</head>
+
+<body>
+
+    <main>
+        <header class="py-3 shadow position-fixed w-100">
+            <div class="nav-dektop d-none d-lg-block">
+                <div class="container">
+                    <div class="row">
+                        <nav class="d-flex justify-content-between align-items-center">
+                            <div class="logo-ecfcanet">
+                                <a href="/">
+                                    <img class="w-100" src="/assets/images/logos/logo-e-CFCAnet.svg"
+                                        alt="Logo e-CFCA Net">
+                                </a>
+                            </div>
+                            <div class="links-nav">
+                                <ul class="nav nav-underline">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Legislação</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/contato.html">Contato</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                                            role="button" aria-expanded="false">Escolha seu estado</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Espirito Santo</a></li>
+                                            <li><a class="dropdown-item" href="#">Paraná</a></li>
+                                            <li><a class="dropdown-item" href="#">Pernambuco</a></li>
+                                            <li><a class="dropdown-item" href="#">Rio de Janeiro</a></li>
+                                            <li><a class="dropdown-item" href="/sao-paulo.html">São Paulo</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="nav-button">
+                                <a href="/area-do-aluno.html" class="cta-one"><i class="fa-solid fa-user pe-2"></i> Área
+                                    do
+                                    Aluno</a>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-mobile d-lg-none">
+                <nav class="navbar bg-white fixed-top">
+                    <div class="container">
+                        <a class="navbar-brand" href="/">
+                            <div class="logo-ecfcanet">
+                                <a href="/">
+                                    <img class="w-100" src="/assets/images/logos/logo-e-CFCAnet.svg"
+                                        alt="Logo e-CFCA Net">
+                                </a>
+                            </div>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="offcanvas offcanvas-end text-bg-white" tabindex="-1" id="offcanvasDarkNavbar"
+                            aria-labelledby="offcanvasDarkNavbarLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                                    <div class="logo-ecfcanet">
+                                        <img class="w-100" src="/assets/images/logos/logo-e-CFCAnet.svg"
+                                            alt="Logo e-CFCA Net">
+                                    </div>
+                                </h5>
+                                <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Legislação</a>
+                                        <a class="nav-link" href="/contato.html">Contato</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Escolha seu estado
+                                        </a>
+                                        <ul class="dropdown-menu dropdown-menu-dark">
+                                            <li><a class="dropdown-item" href="#">Espirito Santo</a></li>
+                                            <li><a class="dropdown-item" href="#">Paraná</a></li>
+                                            <li><a class="dropdown-item" href="#">Pernambuco</a></li>
+                                            <li><a class="dropdown-item" href="#">Rio de Janeiro</a></li>
+                                            <li><a class="dropdown-item" href="/sao-paulo.html">São Paulo</a></li>
+                                        </ul>
+                                        <div class="nav-button pt-4">
+                                            <a href="/area-do-aluno.html" class="cta-one"><i
+                                                    class="fa-solid fa-user pe-2"></i>
+                                                Área do
+                                                Aluno</a>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <section class="banner-home pt-5">
+            <div class="container">
+                <div class="pt-5">
+                    <div
+                        class="banner-home__box d-flex flex-column flex-md-row justify-content-between align-items-center pt-5">
+                        <div
+                            class="banner-home__items d-flex flex-column justify-content-center justify-content-md-start align-items-center align-items-md-start col-12 col-md-6">
+                            <span class="text-center text-md-start pb-2">Bem vindo!</span>
+                            <h1 class="text-center text-md-start">Portal do Sistema <br><span>e-CFCAnet!</span></h1>
+                        </div>
+                        <div
+                            class="banner-home__items col-12 col-md-6 d-flex justify-content-md-end justify-content-md-end pt-5 pt-md-0">
+                            <img class="w-100" id="banner-student" src="/assets/images/banner/bg-01-banner.png"
+                                alt="Estudante e-CFCA NET">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="e-cfcanet py-5">
+        <div class="container">
+            <div>
+                <div class="e-cfcanet__box padding-section pe-md-5">
+                    <h2 class="pb-4">Sistema <span>e-CFCAnet</span></h2>
+                    <p><strong>A Instituição de Ensino AUTOTRÂNSITO</strong> - Centro de Excelência em Educação para o
+                        Trânsito, atuante no mercado há mais de 20 anos, homologada pela SENATRAN (anteriormente chamado
+                        de DENATRAN) nos
+                        cursos de capacitação na modalidade presencial, e desde 2004, em parceria com o GRUPO CRIAR,
+                        empresa de tecnologia com mais de 31 anos de experiência na área de sistemas, juntas oferecem o
+                        Sistema e-CFCAnet para os cursos na modalidade de ensino EaD: Curso de Renovação CNH, Reciclagem
+                        de Condutores Infratores, Preventivo de Reciclagem e Cursos de Formação e Atualização de
+                        Condutores de Veículo de Transporte Coletivo de Passageiros, Condutores de Veículo de Transporte
+                        Escolar, Condutores de Veículo de Transporte de Produtos Perigosos, Condutores de Veículo de
+                        Emergência, , Carga Indivisível, Mototáxi e Motofrete.
+                    </p>
+                    <p>Todos os cursos foram desenvolvidos conforme preconiza a Resolução CONTRAN 928/2022 e suas
+                        complementações e de acordo com o método de Ensino IDGA Modular desenvolvido pela AUTOTRÂNSITO.
+                        Assim como o ambiente virtual de aprendizagem, conta também, com ferramentas atuais e seguras
+                        garantindo a máxima absorção do Aluno, desenvolvido pela parceira tecnológica CRIAR.
+                    </p>
+                    <p>Além dos cursos, oferecemos, também, aos Centros de Formação de Condutores, provas eletrônicas
+                        para todos os cursos no segmento do trânsito.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="traffic-code py-5">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center justify-content-center">
+                <div class="traffic-box__text padding-section pb-5 col-md-9">
+                    <h2 class="text-center pb-4">Código de Trânsito Brasileiro</h2>
+                    <p class="text-center">Nossos cursos a distância obedecem integralmente ao Código de Trânsito
+                        Brasileiro (Lei 9.503, de
+                        23 de setembro de 1997) e as Resoluções CONTRAN 928/2022 e 789/2020, além da legislação vigente
+                        de cada Estado em que atuamos. Os cursos do Sistema e-CFCAnet são homologados através das
+                        Portarias DENATRAN 885/2020, 2039/2020 e SENATRAN 1269/2021.
+                    </p>
+                </div>
+                <div class="traffic-box__items">
+                    <div class="items__traffic d-flex align-items-center justify-content-between flex-wrap">
+
+                        <div class="col-12 col-md-4 pe-md-4 mb-5">
+                            <div class="box">
+                                <div class="box-icon">
+                                    <i style="color: #81c784;" class="fa-solid fa-user-group"></i>
+                                </div>
+                                <div class="box-icon__text">
+                                    <h3>A quem se destina</h3>
+                                    <p>O e-CFCAnet foi criado para que o condutor faça os cursos exigidos na Renovação e
+                                        na
+                                        Reciclagem da Carteira Nacional de Habilitação e especializados a distância, ou
+                                        seja, no conforto de sua casa, usufruindo do melhor conteúdo, de atividades
+                                        dinâmicas e de um suporte qualificado, de acordo com as exigências da legislação
+                                        vigente.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 pe-md-4 mb-5">
+                            <div class="box">
+                                <div class="box-icon">
+                                    <i style="color: #ba68c8;" class="fa-solid fa-desktop"></i>
+                                </div>
+                                <div class="box-icon__text">
+                                    <h3>Ensino a distância</h3>
+                                    <p>Com a Lei de Diretrizes e Bases da Educação, o EaD se tornou uma possibilidade
+                                        efetiva no Brasil, contemplando também a educação para o trânsito. O objetivo de
+                                        nossos cursos a distância é desenvolver e aplicar um sistema de fácil
+                                        utilização,
+                                        popular e bem fundamentado, através do uso de aplicações embasadas nos
+                                        princípios do
+                                        EaD.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 mb-5">
+                            <div class="box">
+                                <div class="box-icon">
+                                    <i style="color: #ffcd00;" class="fa-solid fa-spell-check"></i>
+                                </div>
+                                <div class="box-icon__text">
+                                    <h3>Nossa Metodologia</h3>
+                                    <p>O método IDGA Modular® é o único método de ensino desenvolvido nacionalmente para
+                                        a
+                                        área de educação no trânsito. A sigla IDGA® provém das iniciais de (I) IMAGENS,
+                                        (D)
+                                        DISCUSSÃO DIRIGIDA, (G) GRUPOS DE TRABALHO e (A) AVALIAÇÃO, no processo
+                                        educativo,
+                                        valorizando e otimizando as atividades e o tempo.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 pe-md-4 mb-5">
+
+                            <div class="box">
+                                <div class="box-icon">
+                                    <i style="color: #26c6da;" class="fa-solid fa-eye"></i>
+                                </div>
+                                <div class="box-icon__text">
+                                    <h3>Monitoramento</h3>
+                                    <p>Todo o processo, realizado por meio do e-CFCAnet, com a aplicação do curso EAD, a
+                                        prova eletrônica e o ambiente de prova (físico e virtual) pode ser monitorado,
+                                        via
+                                        internet, ininterruptamente, pelo órgão executivo de trânsito.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 pe-md-4 mb-5">
+                            <div class="box">
+                                <div class="box-icon">
+                                    <i style="color: #ec407a;" class="fa-solid fa-graduation-cap"></i>
+                                </div>
+                                <div class="box-icon__text">
+                                    <h3>Certificado</h3>
+                                    <p>O certificado é emitido após a conclusão do curso para o qual o Aluno foi
+                                        matriculado. O Sistema verifica automaticamente se o Aluno cumpriu todo o
+                                        conteúdo
+                                        programático do curso e libera a impressão do documento.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box col-12 col-md-4 mb-5">
+                            <div class="box-icon">
+                                <i style="color: #ef5350;" class="fa-solid fa-laptop-file"></i>
+                            </div>
+                            <div class="box-icon__text">
+                                <h3>Conteúdo Programático</h3>
+                                <p>O Conteúdo Programático dos cursos foi baseado na legislação vigente e possui
+                                    material didático, estrutura de navegação, de análise, de comunicação e
+                                    acompanhamento, inclusive com ferramentas de avaliação dinâmicas e presentes em toda
+                                    a extensão do curso.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq py-5 shadow">
+        <div class="container">
+            <div
+                class="box-faq d-flex flex-column flex-md-row align-items-center justify-content-between padding-section">
+                <div class="faq-items img col-12 col-md-6 pe-md-5 pb-5 pb-md-0"><img class="w-100 shadow rounded"
+                        src="/assets/images/banner/bg-faq-min.jpg" alt="Perguntas Faq E-CFCA NET">
+                </div>
+                <div class="faq-items col-12 col-md-6 ps-md-5">
+                    <div class="faq-items__title pb-4">
+                        <h2>Perguntas <br>Frequentes</h2>
+                    </div>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed  rounded" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    O que é o e-CFCAnet?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p> O e-CFCAnet foi criado para oferecer aos Condutores cursos a
+                                        distância na área de trânsito.</p>
+
+                                    <p> Nossos cursos a distância obedecem integralmente ao Código de Trânsito
+                                        Brasileiro
+                                        (Lei 9.503, de 23 de setembro de 1997) e as Resoluções CONTRAN 928/2022 e
+                                        789/2020.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed  rounded" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    Como fazer a inscrição nos cursos do Sistema e-CFCAnet?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p> Primeiro, verifique se em seu Estado o Sistema e-CFCAnet
+                                        está disponível. Em seguida escolha o Estado e acesse a área do Aluno para
+                                        verificar o passo a passo de como se matricular nos cursos.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed rounded" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                    aria-expanded="false" aria-controls="flush-collapseThree">
+                                    Qual o valor dos cursos do Sistema e-CFCAnet?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p> Em São Paulo, os cursos do Sistema e-CFCAnet são
+                                        comercializados pelos Centros de Formação de Condutores que possuem as
+                                        informações sobre os valores praticados. Para verificar quais CFCs
+                                        disponibilizam os cursos
+                                        do Sistema e-CFCAnet, escolha acima a opção "São Paulo". No menu principal do
+                                        site clique em "Onde Encontrar".</p>
+                                    <p> Para receber informações sobre os cursos dos outros Estados entre em contato
+                                        conosco pelo telefone 0800-9416070.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed rounded" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                    aria-controls="flush-collapseFour">
+                                    Como funcionam os cursos do Sistema e-CFCAnet?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p> Os cursos do Sistema e-CFCAnet são realizados através da
+                                        Internet.</p>
+                                    <p> Após a realização da matrícula o aluno receberá uma senha para acesso à área do
+                                        aluno.</p>
+                                    <p> Nesta área basta selecionar o Estado, digitar o CPF e senha e, em seguida,
+                                        clicar no botão "Entrar". O aluno terá acesso ao livro eletrônico do Sistema
+                                        e-CFCAnet após a realização do reconhecimento facial conforme legislação
+                                        vigente.</p>
+                                    <p> Os cursos do Sistema e-CFCAnet são divididos em Disciplinas. Sugerimos que siga
+                                        a ordem de estudo, de acordo com a ordem das disciplinas.</p>
+                                    <p> Ao final de cada disciplina há uma bateria de exercícios de fixação. Todos os
+                                        exercícios devem ser respondidos. Ao terminar de ler o conteúdo e responder os
+                                        exercícios de fixação da última disciplina, o próprio aluno poderá emitir o
+                                        certificado.</p>
+                                    <p>Durante todo o curso, o aluno terá disponíveis as ferramentas de auxílio à
+                                        aprendizagem. São elas: Suporte Pedagógico, Discussão Dirigida, Grupo de
+                                        Trabalho e Material de Apoio.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="pt-5">
+        <div class="container">
+            <div class="box-footer padding-section">
+                <div class="d-flex flex-column flex-md-row align-items-start justify-content-between">
+
+                    <div class="footer-items col-12 col-md-4">
+                        <div class="logos-footer__img pb-4">
+                            <a href="https://grupocriar.com.br/" target="_blank" rel="noopener noreferrer"
+                                aria-label="Site grupo criar">
+                                <img class="w-100" src="/assets/images/logos/logo_grupo_criar.png"
+                                    alt="Logo Grupo Criar">
+                            </a>
+                        </div>
+                        <div class="logos-footer__img">
+                            <a href="https://www.autotransito.com/" target="_blank" rel="noopener noreferrer"
+                                aria-label="Site Auto Transito">
+                                <img class="w-100" src="/assets/images/logos/autotransito.png" alt="Logo Grupo Criar">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer-items col-12 col-md-4 pt-5 pt-md-0">
+                        <div class="links-nav footer">
+                            <h3>Acesse</h3>
+                            <ul class="nav d-flex flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Legislação</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/contato.html">Contato</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                        aria-expanded="false">Escolha seu estado</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Espirito Santo</a></li>
+                                        <li><a class="dropdown-item" href="#">Paraná</a></li>
+                                        <li><a class="dropdown-item" href="#">Pernambuco</a></li>
+                                        <li><a class="dropdown-item" href="#">Rio de Janeiro</a></li>
+                                        <li><a class="dropdown-item" href="/sao-paulo.html">São Paulo</a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="footer-items col-12 col-md-4 pt-5 pt-md-0">
+                        <h3>Onde estamos</h3>
+                        <ul>
+                            <li><a href="https://maps.app.goo.gl/W2RZNfUZVfsUN69x6" target="_blank"
+                                    rel="noopener noreferrer">Rua da Redenção, 36 - Jd.
+                                    Mosteiro <br>CEP: 14085-370 - Ribeirão Preto/SP</a></li>
+                            <li><a href="tel:+551635129000" target="_blank" rel="noopener noreferrer">Telefone: (16)
+                                    3512-9000 /
+                                    2102-2400</a></li>
+                            <li><a href="mailto:grupocriar@grupocriar.com.br" target="_blank"
+                                    rel="noopener noreferrer">e-mail:
+                                    grupocriar@grupocriar.com.br</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="separator"></div>
+
+            <div class="copy-box pt-5 pb-3">
+                <div class="d-flex align-items-center justify-content-center">
+                    <p class="text-center">© 2024
+                        e-CFCA net - Todos os direitos reservados | <a href="https://grupocriar.com.br/" target="_blank"
+                            rel="noopener noreferrer">Desenvolvido por Grupo Criar</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1f747bf56f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
